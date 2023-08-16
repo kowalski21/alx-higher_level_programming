@@ -2,7 +2,7 @@
 # 10-best_score.py
 
 
-def best_score(a_dictionary: dict):
+def best_score(a_dictionary):
     """Returns a key with the biggest  value."""
     if len(a_dictionary) == 0 or not isinstance(a_dictionary):
         return None
