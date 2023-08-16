@@ -6,7 +6,7 @@ def magic_calculation(a, b):
     """Print bytecodes."""
     from magic_calculation_102 import add, sub
 
-    if b < a:
+    if a < b:
         c = add(a, b)
         for i in range(4, 6):
             c = add(c, i)
